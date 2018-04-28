@@ -1,0 +1,15 @@
+@JS() library tfjs.node_modules._tensorflow.tfjs_layers.dist ; import "package:js/js.dart" ;
+ import "callbacks.dart" show Callback, CallbackList, CustomCallback, CustomCallbackConfig, Logs ;
+ import "training.dart" show Model, ModelCompileConfig, ModelEvaluateConfig, ModelFitConfig, ModelPredictConfig ;
+ import "recurrent.dart" show GRUCellLayerConfig, GRULayerConfig, LSTMCellLayerConfig, LSTMLayerConfig, RNN, RNNLayerConfig, SimpleRNNCellLayerConfig, SimpleRNNLayerConfig ;
+ import "models.dart" show ModelAndWeightsConfig, Sequential, SequentialConfig ;
+ import "types.dart" show SymbolicTensor ;
+ import "version.dart" show version ;
+export "callbacks.dart" show Callback, CallbackList, CustomCallback, CustomCallbackConfig, Logs ;
+ export "training.dart" show Model, ModelCompileConfig, ModelEvaluateConfig, ModelFitConfig, ModelPredictConfig ;
+ export "recurrent.dart" show GRUCellLayerConfig, GRULayerConfig, LSTMCellLayerConfig, LSTMLayerConfig, RNN, RNNLayerConfig, SimpleRNNCellLayerConfig, SimpleRNNLayerConfig ;
+ export "models.dart" show ModelAndWeightsConfig, Sequential, SequentialConfig ;
+ export "types.dart" show List<num>, SymbolicTensor ;
+ export "version.dart" show version ;
+ export show backend ;
+ @JS() external dynamic get model; @JS() external dynamic get sequential; @JS() external dynamic get loadModel; @JS() external dynamic get input; @JS() external dynamic get layers; @JS() external dynamic get constraints; @JS() external dynamic get initializers; @JS() external dynamic get metrics; @JS() external dynamic get regularizers;

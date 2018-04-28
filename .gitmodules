@@ -1,0 +1,3 @@
+[submodule "tfjs"]
+	path = tfjs
+	url = https://github.com/tensorflow/tfjs.git
